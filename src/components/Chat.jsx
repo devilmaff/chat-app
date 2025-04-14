@@ -12,6 +12,7 @@ export default function Chat({ user }) {
     await addDoc(messagesRef, {
       text,
       email: user.email,
+      
       name:user.displayName,
       // name:user.displayName,
       date,

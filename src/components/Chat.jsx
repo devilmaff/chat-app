@@ -12,8 +12,8 @@ export default function Chat({ user }) {
     await addDoc(messagesRef, {
       text,
       email: user.email,
-      logo: user.photoUrl,
       name:user.displayName,
+      // name:user.displayName,
       date,
     });
     setText("");

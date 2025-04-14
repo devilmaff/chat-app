@@ -24,7 +24,7 @@ function App() {
         <div className="p-5 text-center">
           <div>
             <img
-              src="/src/assets/work-1.png" // Replace with a valid image path
+              src="/src/assets/4.jpg" 
               alt="logo"
               width={400}
               height={400}

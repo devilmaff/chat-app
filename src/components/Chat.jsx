@@ -46,7 +46,7 @@ export default function Chat({ user }) {
   return (
     <div>
       <div className="justify-content-center">
-        <h2 className="text-primary">chatapp</h2>
+        <h2 className="text-primary">Vgrow-Chatapp</h2>
       </div>
       <div className="row mt-4">
         <div className="col-xl-4 col-lg-4 col-sm-3 col-2"></div>

@@ -21,17 +21,17 @@ function App() {
       {user ? (
         <Chat user={user} />
       ) : (
-        <div className="p-5 text-center">
-          <div>
-            <img
-              src="/src/assets/4.jpg" 
-              alt="logo"
-              width={400}
-              height={400}
-              className="pr-2"
-              style={{ borderRadius: "200px" }}
-            />
-          </div>
+        // <div className="p-5 text-center">
+        //   <div>
+        //     <img
+        //       src="./assests/IMG-20250309-WA0004.jpg" 
+        //       alt="logo"
+        //       width={300}
+        //       height={300}
+        //       className="pr-2"
+        //       style={{ borderRadius: "200px" }}
+        //     />
+        //   </div>
           <div>
             <button
               className="btn btn-primary"
@@ -41,8 +41,8 @@ function App() {
               Login
             </button>
           </div>
-          </div>
-     
+        
+
       )}
     </div>
   );
